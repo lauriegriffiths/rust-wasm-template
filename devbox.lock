@@ -1,0 +1,250 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "libiconv@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#libiconv",
+      "source": "devbox-search",
+      "version": "99",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cjzmz9dskblgkbv4by2wnsyvdjw6jpcm-libiconv-99",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/r2jkk7lsmi17m5lp3r7aip9626n07qfz-libiconv-99-dev"
+            }
+          ],
+          "store_path": "/nix/store/cjzmz9dskblgkbv4by2wnsyvdjw6jpcm-libiconv-99"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/byx7hpi5hblzk8hpfd5pg2v7a63m5j15-libiconv-99",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/iqgcmki7xk4v9fzk67wm63fwjby97cln-libiconv-99-dev"
+            }
+          ],
+          "store_path": "/nix/store/byx7hpi5hblzk8hpfd5pg2v7a63m5j15-libiconv-99"
+        }
+      }
+    },
+    "rustup@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#rustup",
+      "source": "devbox-search",
+      "version": "1.27.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/prbpax89x3wad4f2ckjbxs5z9bh39yfj-rustup-1.27.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/prbpax89x3wad4f2ckjbxs5z9bh39yfj-rustup-1.27.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cw6vj5y265hixh2l80rwv7pb9n39s80s-rustup-1.27.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cw6vj5y265hixh2l80rwv7pb9n39s80s-rustup-1.27.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hf2hwb243fwclc417mmacyyas2fnkqxg-rustup-1.27.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hf2hwb243fwclc417mmacyyas2fnkqxg-rustup-1.27.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a04bnqgj3mvg777a70jymwnxcgm7cdcv-rustup-1.27.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/a04bnqgj3mvg777a70jymwnxcgm7cdcv-rustup-1.27.1"
+        }
+      }
+    },
+    "wabt@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#wabt",
+      "source": "devbox-search",
+      "version": "1.0.36",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/64jwjzvm4w7zgm4rq5wiqnz0dbaq0rw4-wabt-1.0.36",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/64jwjzvm4w7zgm4rq5wiqnz0dbaq0rw4-wabt-1.0.36"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qkfkw47z6gyryzgyvdbhlfc63fwnw7s7-wabt-1.0.36",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qkfkw47z6gyryzgyvdbhlfc63fwnw7s7-wabt-1.0.36"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0kfgkihlzkdg6rc0h9f2aplfpflqjkn6-wabt-1.0.36",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0kfgkihlzkdg6rc0h9f2aplfpflqjkn6-wabt-1.0.36"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/crhq0dw6fp0s81909izrkbx07c9m3h34-wabt-1.0.36",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/crhq0dw6fp0s81909izrkbx07c9m3h34-wabt-1.0.36"
+        }
+      }
+    },
+    "wasm-tools@latest": {
+      "last_modified": "2024-09-27T09:34:34Z",
+      "resolved": "github:NixOS/nixpkgs/e0f477a570df7375172a08ddb9199c90853c63f0#wasm-tools",
+      "source": "devbox-search",
+      "version": "1.217.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z0xk26k8f905hvh0xsl7pi10ii8f4dc3-wasm-tools-1.217.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z0xk26k8f905hvh0xsl7pi10ii8f4dc3-wasm-tools-1.217.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pyvwbx6314bkdpy9znd4igrrq4llgbz0-wasm-tools-1.217.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pyvwbx6314bkdpy9znd4igrrq4llgbz0-wasm-tools-1.217.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sl7biiidcp642d60jkvbsnn41f3jhzqa-wasm-tools-1.217.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sl7biiidcp642d60jkvbsnn41f3jhzqa-wasm-tools-1.217.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9gc4i1w749p3n19dlj3nhbgkcd671icv-wasm-tools-1.217.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9gc4i1w749p3n19dlj3nhbgkcd671icv-wasm-tools-1.217.0"
+        }
+      }
+    },
+    "wasmtime@latest": {
+      "last_modified": "2024-09-25T12:08:18Z",
+      "resolved": "github:NixOS/nixpkgs/4f31540079322e6013930b5b2563fd10f96917f0#wasmtime",
+      "source": "devbox-search",
+      "version": "25.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ib89l8mkvjypswy19bpa7bn0s9s5l1bs-wasmtime-25.0.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/0l6ws96rwhzvsv12qqbik381pdbwdldw-wasmtime-25.0.0-dev"
+            }
+          ],
+          "store_path": "/nix/store/ib89l8mkvjypswy19bpa7bn0s9s5l1bs-wasmtime-25.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jbnkcl0fassfspx4nb952ssaikj82s2i-wasmtime-25.0.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/kk1rf8zrwli1rgb0ghc56v6570q3y5dl-wasmtime-25.0.0-dev"
+            }
+          ],
+          "store_path": "/nix/store/jbnkcl0fassfspx4nb952ssaikj82s2i-wasmtime-25.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/33j8c9sp52glds1k7hrlljrvm9ssjmy2-wasmtime-25.0.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/7gpsc330ii7qdsinj7qjvf76fml66x9y-wasmtime-25.0.0-dev"
+            }
+          ],
+          "store_path": "/nix/store/33j8c9sp52glds1k7hrlljrvm9ssjmy2-wasmtime-25.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4ai8khvkjsp1wkscxqm35cxsaijl0aqs-wasmtime-25.0.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/jy3k42vzsybp67k6wip1cblkyp8jg013-wasmtime-25.0.0-dev"
+            }
+          ],
+          "store_path": "/nix/store/4ai8khvkjsp1wkscxqm35cxsaijl0aqs-wasmtime-25.0.0"
+        }
+      }
+    }
+  }
+}
